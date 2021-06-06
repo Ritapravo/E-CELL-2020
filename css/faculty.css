@@ -91,6 +91,7 @@ body{
   opacity:0;
   transition: 0.5s;
   transform: rotateY(360deg) scale(0.5, 0.5);
+  
 
 }
 
@@ -103,8 +104,10 @@ body{
 .card{
   width:100%;
   height:500px;
-  box-shadow: 0 8px 8px 0 rgb(255, 255, 255);
+  box-shadow: 8px 8px 8px 0 rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.3); 
   border-radius: 10px;
+  color: rgb(243, 243, 243);
   
 
 }
@@ -112,11 +115,12 @@ body{
 .card:hover{
   width:100%;
   height:500px;
-  box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.925);
+  box-shadow: 8px 8px 8px 0 rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   transform: scale(1.1);
   transform-style:flat;
-  background: rgba(235, 232, 232, 0.952);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #28283e; 
   
   
 }
