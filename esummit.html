@@ -73,6 +73,8 @@ img .test
     </div>
 </div>
 
+    
+
   <!--==========================
     Header
   ============================-->
@@ -137,6 +139,30 @@ img .test
                     </div>
                     
                    <br>
+                   <!-- <audio autoplay controls> 
+                    <source src="esum.mpeg" type="audio/mpeg" > 
+                  </audio> -->
+
+                  <!-- <audio id="my_audio" src="esum.mpeg" autoplay="autoplay" loop="loop" controls></audio> -->
+                  <div  class="social-links fixed-bottom">
+                    <!-- <a href="" class="twitter"><i class="fa fa-pause"></i></a> -->
+                    <audio id="music-button" src="esum.mpeg" autoplay="autoplay" controls></audio>
+                      
+                    
+                 </div>
+
+                 <script type="text/javascript">
+                    $('#music-button').toggle(
+                      function () {
+                        document.getElementById('audio').play();
+                      },
+                      function () {
+                        document.getElementById('audio').pause();
+                      }
+                    );
+                  </script>
+
+                  <br><br>
                    
                     <h3 class = "mmm">E-Summit 2021 sponsors</h3><br>
                     
@@ -152,7 +178,10 @@ img .test
                        StockGro Official Event sponsor https://stockgro.club/
                         𝘾𝙤-𝙎𝙥𝙤𝙣𝙨𝙤𝙧 https://learningwhiletravelling.com/
                 -->
+           
+                <!--=============== MUSIC =====================-->
 
+                
                   <div class="row">
                     <div class="col-0 col-sm-0 col-md-2 col-lg-2 item"></div>
 
@@ -321,7 +350,7 @@ img .test
     </div>
   </footer><!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 

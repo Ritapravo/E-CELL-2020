@@ -136,6 +136,10 @@ body{
     width:112%;
     height:100%
   }
+  .social-links a{
+    margin-left: 50%;
+  }
+
 }
 html ,body{
 background-image:url('../images/esummit.jpg');
@@ -168,4 +172,49 @@ background-image:url('../images/esummit.jpg');
 
 }
 
+.social-links {
+  font-size: 26px;
+  display: inline-block;
+  background: rgb(250, 80, 80);
+  background: transparent;
+  color: #eee;
+  line-height: 1;
+  padding: 12px 12px 12px 12px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+  /* margin-right: 12px; */
+  margin-left: 80%;
+  align-items: right;
+  border-radius: 50%;
+  text-align: right;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+audio{
+
+  
+  color: rgb(250, 80, 80);
+  width: 200px;
+  height: 40px;
+  margin-right: 150px;
+   margin-bottom: 30px;
+}
+
+.social-links audio a:hover {
+  background: #fff;
+  color: #03192b;
+}
+@media(max-width:650px){
+  .social-links {
+    margin-left: 70%;
+    
+  }
+  audio{
+    width: 100px;
+    height: 50px;
+    border-right: 100px transparent;
+    padding-right: 100px transparent;
+  }
+}
 
