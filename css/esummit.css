@@ -197,8 +197,12 @@ audio{
   color: rgb(250, 80, 80);
   width: 180px;
   height: 40px;
-  margin-right: 150px;
+  margin-right: 150px ;
    margin-bottom: 30px;
+   border-radius: 50px;
+   border: 3px solid black;
+
+   
 }
 
 .social-links audio a:hover {
@@ -215,7 +219,7 @@ audio{
     height: 40px;
     /* border-right: 100px transparent;
     padding-right: 100px transparent; */
-    content: 40px;
+
   }
 }
 
