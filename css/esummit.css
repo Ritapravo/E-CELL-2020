@@ -136,9 +136,7 @@ body{
     width:112%;
     height:100%
   }
-  .social-links a{
-    margin-left: 50%;
-  }
+  
 
 }
 html ,body{
@@ -172,7 +170,7 @@ background-image:url('../images/esummit.jpg');
 
 }
 
-.social-links {
+.audio-links {
   font-size: 26px;
   display: inline-block;
   background: rgb(250, 80, 80);
@@ -205,12 +203,12 @@ audio{
    
 }
 
-.social-links audio a:hover {
+.audio-links audio a:hover {
   background: #fff;
   color: #03192b;
 }
 @media(max-width:650px){
-  .social-links {
+  .audio-links {
     margin-left: 70%;
     
   }
